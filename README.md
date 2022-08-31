@@ -15,8 +15,8 @@
     - [Running using a Command Line](#running-using-a-command-line)
     - [Running using a Python editor (not recommended)](#running-using-a-python-editor-not-recommended)
 - [Explaining the code](#explaining-the-code)
-	- [main.py](#main-py)
-	- [functions.py](#functions.py)
+	- [main.py](#mainpy)
+	- [functions.py](#functionspy)
 
 
 <br>
@@ -309,3 +309,8 @@ def format_table(data):
     return table_string
 
 ```
+
+
+<br><br>
+
+[Back to top](#table-of-contents)
