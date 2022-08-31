@@ -25,10 +25,24 @@ It is recommended that you run the executable, as it is simple and requires no s
 
 #### Using the executables:
 
-While viewing the repository on GitHub, locate the 'Releases' section on the right side and click on the latest release.
+While viewing the repository on GitHub, locate the 'Releases' section on the right side and click on the latest release. Then download the binaries for your specific machine (or them all).
 
-Download the binaries for your machine. Running the executable may be different depending on your machine.
+Running it on Mac, you will have to make the file executable with the terminal:
 
+     >  chmod 755 macos
+     >  ./macos
+
+     ...
+
+On Windows, you should be able to double click on the file to run it.
+
+<br>
+
+Here is the info regarding the machines I compiled these on:
+| Operating System | Compiled on |
+| ------------- | ----------- |
+| macOS         | macOS-12.3.1-x86_64-i386-64bit |
+| Windows       | Windows-10-100.22000-SP0 |
 
 <br>
 
