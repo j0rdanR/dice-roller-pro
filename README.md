@@ -1,2 +1,8 @@
-# dice-roller-pro
- source code for 11CSC - Task 8
+# 11CSC - Task 8
+
+### Dice Roller Pro by Jordan Rodrigues
+
+<br>
+
+Source code for the Python programming assignment.
+
