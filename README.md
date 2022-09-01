@@ -95,49 +95,6 @@ Then an if statement is used to compare the input with the menu options. If it m
 
 The `roll_dice()` function has a return type of `Boolean`. If the function determines that the input is not formatted correctly, it will return `False`, and the program will output 'Invalid input' before looping again.
 
-<!-- <details> -->
-<summary>View Pseudocode</summary><br>
-
-```
-function main()
-	call print_heading()
-	set exit to false
-	dowhile (exit != true)
-		input "select an option...
-		set option to input
-		if (option == 'h') then
-
-		endif
-	end
-end
-```
-
-</details>
-
-<details>
-<summary>View trace table</summary><br>
-
-|Line|Statement|exit|option|Output|
-|--|--|--|--|--|
-|1|`def main():`|
-|2|`print_heading(1, "Dice Roller Pro!")`|||====...|
-|4|`exit = False`|`False`|
-|5|`while exit != True:`|`False`|
-|6|`option = input("Enter a ...")`|`False`|`{user_input}`|Enter a...|
-|7|`option = option.strip().lower()`|`False`|`{user_input}`|
-|9|`if option == 'h':`|`False`|`'h'`|
-|9|`show_help_screen()`|`False`|`'h'`|====...|
-|10|`elif option == 'x':`|`False`|`'x'`|
-|11|`print_heading(3, "Goodbye!")`|`False`|`'x'`|====...|
-|12|`exit = True`|`True`|`'x'`|
-|13|`elif option != '':`|`False`|`''`|
-|14|`is_valid = roll_dice(option)`|`False`|`''`|
-|15|`if is_valid == False:`|`False`|`''`|
-|16|`print("Invalid input\n")`|`False`|`''`|Invalid input|
-
-
-</details>
-
 
 <br><br>
 
@@ -147,7 +104,7 @@ end
 This file has the following imports:
 
 ```python
-import sys, random, time
+import random, time
 ```
 
 The use of these modules will be described later.
