@@ -1,3 +1,6 @@
+# DICE ROLLER PRO
+# BY JORDAN RODRIGUES
+
 # the functions are defined at the top. You will find the main func at the end.
 # all code is commented where necessary, or you can find an explaination on the GitHub repo:
 # https://github.com/j0rdanR/dice-roller-pro/blob/main/README.md
@@ -72,7 +75,7 @@ def roll_dice(input_string):
 
 
 def get_statistics(rolls):
-    print_heading(1, 'Roll Statistics')
+    print_heading(1, "Roll Statistics")
 
     # calculate basic statistics using math lib
     total = sum(rolls)
