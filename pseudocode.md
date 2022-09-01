@@ -1,3 +1,5 @@
+## Pseudocode
+
 <!-- haskell and fortran work well with pseudocode for syntax highlighting -->
 
 ```haskell
@@ -25,6 +27,10 @@ Main Module
 
 End Module
 ```
+
+<br>
+
+Functions:
 
 ```haskell
 print_heading Module
