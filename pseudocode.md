@@ -1,6 +1,6 @@
 <!-- haskell and fortran work well with pseudocode for syntax highlighting -->
 
-```haskell
+```fortran
 Main Module
     Begin
     Call print_heading
