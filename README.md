@@ -1,4 +1,4 @@
-> Please read this document before attempting to run the program. If you are using the `program.min.py` file then you can skip to [Explaining the code](#explaining-the-code)
+> Please read this document before attempting to run the program.
 
 <br>
 
@@ -10,6 +10,8 @@
 <br>
 
 ### Table of Contents
+- [Running the program](#running-the-program)
+- [Pseudocode and trace tables](#pseudocode-and-trace-tables)
 - [Explaining the code](#explaining-the-code)
 	- [main.py](#mainpy)
 	- [functions.py](#functionspy)
@@ -17,6 +19,31 @@
 
 <br>
 
+## Running the program
+
+There are two relevant files in the root directory:
+
+1. `program.py` - the program's code with comments
+2. `program.min.py` - a minimised version of the code with a small file size
+
+You can copy the code from either file by clicking on it and pressing the 'copy all' icon in the top right. You can now copy that into Mu editor.
+
+
+
+
+<br><br><br>
+
+## Pseudocode and trace tables
+
+The pseudocode and trace tables are named respectivly:
+
+- [`pseudocode.md`](https://github.com/j0rdanR/dice-roller-pro/blob/main/pseudocode.md)
+- [`trace_tables.md`](https://github.com/j0rdanR/dice-roller-pro/blob/main/trace_tables.md)
+
+
+
+
+<br><br><br>
 
 ## Explaining the code
 
