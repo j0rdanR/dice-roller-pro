@@ -1,4 +1,4 @@
-> Please read this document before attempting to run the program. If you are not facing any issues when running the program, you can skip ahead to the 'Explaining the code' section.
+> Please read this document before attempting to run the program. If you are using the `program.min.py` file then you can skip to [Explaining the code](#explaining-the-code)
 
 <br>
 
@@ -10,10 +10,6 @@
 <br>
 
 ### Table of Contents
-- [Running the program](#running-the-program)
-    - [Running using the executables](#running-using-the-executables)
-    - [Running using a Command Line](#running-using-a-command-line)
-    - [Running using a Python editor (not recommended)](#running-using-a-python-editor-not-recommended)
 - [Explaining the code](#explaining-the-code)
 	- [main.py](#mainpy)
 	- [functions.py](#functionspy)
@@ -21,89 +17,6 @@
 
 <br>
 
-## Running the program
-
-There are two ways to run the program:
-1. Using the precompiled executable for your operating system
-2. By running the source code in a Python interpreter
-
-It is recommended that you run the executable, as it is simple and requires no setup.
-
-
-
-
-<br>
-
-#### Running using the executables:
-
-While viewing the repository on GitHub, navigate to the [Releases](https://github.com/j0rdanR/dice-roller-pro/releases) page, then download the binaries for your specific machine (or them all).
-
-Running it on Mac, you will have to make the file executable with the terminal:
-
-     >  chmod 755 macos
-     >  ./macos
-
-     ...
-
-On Windows, you should be able to double click on the file to run it.
-
-<br>
-
-Here is the info regarding the machines I compiled these on:
-| Operating System | Compiled on |
-| ------------- | ----------- |
-| macOS         | macOS-12.3.1-x86_64-i386-64bit |
-| Windows       | Windows-10-100.22000-SP0 |
-
-<br>
-
-#### Running using a Command Line:
-
-Check your Python install on Linux/macOS using a terminal:
-
-     >  python3 --version
-     >  Python 3.10.5
-
-<br>
-
-On Windows, using Command Prompt:
-
-     >  py -3 --version
-     >  Python 3.10.5
-
-
-<br>
-
-Then to run the program, use the command:
-
-     >  python3 main.py
-    
-        ============================================================
-                        |    DICE ROLLER PRO!    |                 
-        ============================================================
-
-        Enter a roll ('h' for help, 'x' to exit): █
-
-> Make sure you are in the directory containing the `main.py` file, or you can provide an absolute reference to it instead.
-
-
-
-<br>
-
-#### Running using a Python editor (not recommended):
-
-> WARNING: Some Python code editors, such as ‘Mu Editor’ do not work well when importing modules. It is recommended that you use the executables or another method.
-
-1. Import the project files into the workspace of your editor
-2. Run the code
-	1. With the integrated terminal: use the same command in the [Running using a Command Line](#running-using-a-command-line) step
-    2. Or press the 'Run program' button, and the code should execute.
-
-
-
-
-
-<br><br><br>
 
 ## Explaining the code
 
@@ -182,6 +95,24 @@ Then an if statement is used to compare the input with the menu options. If it m
 
 The `roll_dice()` function has a return type of `Boolean`. If the function determines that the input is not formatted correctly, it will return `False`, and the program will output 'Invalid input' before looping again.
 
+<!-- <details> -->
+<summary>View Pseudocode</summary><br>
+
+```
+function main()
+	call print_heading()
+	set exit to false
+	dowhile (exit != true)
+		input "select an option...
+		set option to input
+		if (option == 'h') then
+
+		endif
+	end
+end
+```
+
+</details>
 
 <details>
 <summary>View trace table</summary><br>
@@ -206,6 +137,7 @@ The `roll_dice()` function has a return type of `Boolean`. If the function deter
 
 
 </details>
+
 
 <br><br>
 
