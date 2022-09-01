@@ -1,3 +1,6 @@
+## Trace tables
+
+
 #### Init:
 
 |Line|Statement|`__name__`|Output|
