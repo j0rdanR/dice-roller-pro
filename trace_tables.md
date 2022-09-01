@@ -1,3 +1,12 @@
+#### Init:
+
+|Line|Statement|Output|
+|--|--|--|
+|1|
+
+
+
+#### Main function:
 
 |Line|Statement|exit|option|Output|
 |--|--|--|--|--|
@@ -16,3 +25,5 @@
 |14|`is_valid = roll_dice(option)`|`False`|`''`|
 |15|`if is_valid == False:`|`False`|`''`|
 |16|`print("Invalid input\n")`|`False`|`''`|Invalid input|
+
+
