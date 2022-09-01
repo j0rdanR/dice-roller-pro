@@ -132,7 +132,7 @@ This test concluded with one roll of `14`. Missing lines (such as line 4) are th
 |22|`time.sleep(0.5)`|`2`|`2`|`[4, 1]`
 |23|`get_statistics(rolls)`|`2`|`2`|`[4, 1]`
 
-This test concluded with two rolls of `4` and `1`
+This test concluded with two rolls of `4` and `1`.
 
 
 <br><br>
